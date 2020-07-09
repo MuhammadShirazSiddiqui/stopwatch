@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <title>Stop Watch</title>
+  </head>
+  <body class="">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="align-self-center">
+          <div class="text-center" style="background-color: brown;">
+            <h1 class="text-white p-5" >Stop Watch</h1>
+          </div>
+  
+          <div class="container text-center">
+            <h1 style="width: 100px; height: 130px" id="min">0</h1>
+            <h1 style="width: 100px; height: 130px" id="sec">0</h1>
+            <h1 style="width: 100px; height: 130px" id="msec">0</h1>
+          </div>
+          <div class="container text-center">
+            <button
+              style="margin: 0px 10px;"
+              class="btn btn-danger btn-lg"
+              id="start"
+              onclick="start()"
+            >
+              Start
+            </button>
+            <button
+              style="margin: 0px 10px;"
+              class="btn btn-danger btn-lg"
+              onclick="stop()"
+            >
+              Stop
+            </button>
+            <button
+              style="margin: 0px 10px;"
+              class="btn btn-danger btn-lg"
+              onclick="reset()"
+            >
+              Reset
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    display: inline-block;
+    color:white !important;
+    padding: 10px 20px;
+    font-weight: bold !important;
+    font-size: 60px !important; 
+    /* margin: 0px 25px !important; */
+}
+
+body{
+    background-color: black !important;
+}
+
+button{
+    text-decoration: none;
+}
